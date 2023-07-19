@@ -54,4 +54,50 @@
     white-space: pre-wrap;
     word-wrap: break-word;
   }
-  
+
+  form {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    margin: 100px auto;
+    padding: 40px;
+    width: 30%;
+    min-width: 300px;
+  }
+
+  form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5ba13;
+    color: white;
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      padding: 16px;
+    }
+    header h1 {
+      font-size: 1.5em;
+    }
+    form {
+      width: 90%;
+      padding: 20px;
+    }
+  }
